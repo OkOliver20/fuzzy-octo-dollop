@@ -1,0 +1,65 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+.note {
+    font-size: 15px;
+    color: black;
+}
+
+body {
+    background-size: cover;
+}
+#display{
+    font-size:28px;
+}
+.div_disk2 {
+    float: left;
+}
+
+.div_speed_img {
+    width: 200px;
+    border-radius: 100px;
+}
+.div_disk1 {
+    float: right;
+}
+
+.div_volume_img {
+    width: 200px;
+    border-radius: 100px;
+}
+canvas {
+    margin-top:200px;
+    animation-name: name1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes name1 {
+    0% {
+        box-shadow: 2px 2px 39px #ce2438;
+    }
+
+    20% {
+        box-shadow: 2px 2px 39px #c8cf0b;
+    }
+
+    40% {
+        box-shadow: 2px 2px 39px #dbaa16;
+    }
+
+    60% {
+        box-shadow: 2px 2px 39px #21b8cc;
+    }
+
+    80% {
+        box-shadow: 2px 2px 39px #155eb8;
+    }
+
+    100% {
+        box-shadow: 2px 2px 39px #bf00ff;
+    }
+}
